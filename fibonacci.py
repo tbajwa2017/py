@@ -2,7 +2,7 @@ t1 = 0
 t2 = 1
 
 #num1 = int(raw_input("Enter the maximum number : "))
-num1 = 30
+num1 = 35
 
 print "Fibonacci Series: "
 nextterm = 0
