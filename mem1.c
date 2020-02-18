@@ -8,7 +8,7 @@ int main()
 
 char * char_ptr ;
 
-char_ptr = (char *)calloc(131072 , sizeof(char)) ;
+char_ptr = (char *)calloc(65536 , sizeof(char)) ;
 if ( char_ptr == NULL )
 {
 printf("Memory not allocated and inititalized.\n") ;
