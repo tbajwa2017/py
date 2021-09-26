@@ -7,7 +7,7 @@
       port: 587
       username: tbajwa@gmail.com
       password: "password123"
-      to: tbajwa86@hotmail.com
+      to: a@abc.com
       subject: Testing Email By Ansible Yaml
       body: Sending email to test ansible yaml file
       secure: starttls
