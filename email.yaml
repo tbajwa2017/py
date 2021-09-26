@@ -6,7 +6,7 @@
       host: smtp.gmail.com
       port: 587
       username: tbajwa@gmail.com
-      password: "$Dilber2022?"
+      password: "password123"
       to: tbajwa86@hotmail.com
       subject: Testing Email By Ansible Yaml
       body: Sending email to test ansible yaml file
