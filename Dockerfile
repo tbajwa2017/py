@@ -1,9 +1,9 @@
 FROM ubuntu:bionic
 
-ENV NGINX_VERSION 1.14.0-0ubuntu1.6
+
 
 RUN apt-get update && apt-get install -y curl
-RUN apt-get update && apt-get install -y nginx=$NGINX_VERSION
+RUN apt-get update && apt-get install -y nginx
 RUN apt-get update && apt-get install -y vim
 RUN echo "daemon off;" >> /etc/nginx/nginx.conf
 RUN apt-get update && apt-get install -y gcc
