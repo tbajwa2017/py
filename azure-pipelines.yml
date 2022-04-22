@@ -26,7 +26,8 @@ stages:
         command: build
         dockerfile: '$(Build.SourcesDirectory)/Dockerfile'
         tags: |
-          $(tag)
+         tbajwa/myrepo
+          
     - task: Docker@2
       inputs:
        containerRegistry: 'Docker-hub-svc-con'
