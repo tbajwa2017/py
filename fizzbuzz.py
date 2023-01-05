@@ -9,4 +9,4 @@ for i in range(1,100):
  else:
   str1 = str1 + str(i) + " "
 
-print str1
+print(str1)
