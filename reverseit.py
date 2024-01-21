@@ -9,6 +9,6 @@ for i in range(num1-1, -1, -1):
    str1 = str1 + name1[i]
 #str1 = str1 + str2
 #print str1
-print str1
- 
-#test line
+print (str1)
+
+
