@@ -4,3 +4,4 @@ def my_function(x):
 mytxt = my_function("I wonder how this text looks like backwards")
 
 print(mytxt)
+
