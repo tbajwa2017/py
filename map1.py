@@ -5,4 +5,4 @@ def Ti(x):
 
 list1=list(map(Ti, items))
 
-print list1
+print (list1)

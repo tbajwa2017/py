@@ -11,8 +11,8 @@ for i in str2:
 str3 = str3a[::-1]
 
 if str2 == str3:
- print "The string " + str1 + " is a Palindrome"
+ print ("The string " + str1 + " is a Palindrome")
 else:
- print "The string " + str1 + " is not a Palindrome"
+ print ("The string " + str1 + " is not a Palindrome")
 
 str4=""
